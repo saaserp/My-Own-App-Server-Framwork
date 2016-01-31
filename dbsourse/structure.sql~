@@ -5,7 +5,6 @@ DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user`(
     `uid` int(11) NOT NULL AUTO_INCREMENT,
     `email`    text,
-    `phone`    text,
     `username` text,
     `nickname` text,
     `imagesrc` text,
